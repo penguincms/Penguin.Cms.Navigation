@@ -7,21 +7,15 @@
     <Description>Not Available</Description>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Penguin.Cms.Abstractions\Penguin.Cms.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.csproj" />
-    <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.csproj" />
-    <ProjectReference Include="..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Cms.Entities\Penguin.Cms.Entities.csproj" />
-    <ProjectReference Include="..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.csproj" />
-    <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.csproj" />
-    <ProjectReference Include="..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Navigation.Abstractions\Penguin.Navigation.Abstractions.csproj" />
-    <ProjectReference Include="..\Penguin.Shared.Objects\Penguin.Shared.Objects.csproj" />
-    <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Abstractions\Penguin.Cms.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Cms.Entities\Penguin.Cms.Entities.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Navigation.Abstractions\Penguin.Navigation.Abstractions.Local.csproj" />
+    <ProjectReference Include="..\Penguin.Shared.Objects\Penguin.Shared.Objects.Local.csproj" />
   </ItemGroup>
 </Project>

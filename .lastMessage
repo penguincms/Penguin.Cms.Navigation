@@ -1,0 +1,32 @@
+Microsoft (R) Build Engine version 16.3.0+0f4c62fea for .NET Core
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Restore completed in 29.64 ms for C:\Penguin\Repositories\Penguin.DependencyInjection.Abstractions\Penguin.DependencyInjection.Abstractions.Local.csproj.
+  Restore completed in 29.63 ms for C:\Penguin\Repositories\Penguin.Extensions.String\Penguin.Extensions.String.Local.csproj.
+  Restore completed in 29.62 ms for C:\Penguin\Repositories\Penguin.Entities.Abstractions\Penguin.Entities.Abstractions.Local.csproj.
+  Restore completed in 29.61 ms for C:\Penguin\Repositories\Penguin.Cms.Entities\Penguin.Cms.Entities.Local.csproj.
+  Restore completed in 29.62 ms for C:\Penguin\Repositories\Penguin.Persistence.Abstractions\Penguin.Persistence.Abstractions.Local.csproj.
+  Restore completed in 29.67 ms for C:\Penguin\Repositories\Penguin.Navigation.Abstractions\Penguin.Navigation.Abstractions.Local.csproj.
+  Restore completed in 29.64 ms for C:\Penguin\Repositories\Penguin.Cms.Abstractions\Penguin.Cms.Abstractions.Local.csproj.
+  Restore completed in 29.64 ms for C:\Penguin\Repositories\Penguin.Cms.Navigation\Penguin.Cms.Navigation.Local.csproj.
+  Restore completed in 0.84 ms for C:\Penguin\Repositories\Penguin.Reflection.Abstractions\Penguin.Reflection.Abstractions.Local.csproj.
+  Restore completed in 0.89 ms for C:\Penguin\Repositories\Penguin.Shared.Objects\Penguin.Shared.Objects.Local.csproj.
+  Restore completed in 0.89 ms for C:\Penguin\Repositories\Penguin.Reflection.Extensions\Penguin.Reflection.Extensions.Local.csproj.
+  Penguin.DependencyInjection.Abstractions.Local -> C:\Penguin\Repositories\Penguin.DependencyInjection.Abstractions\bin\Release\netstandard2.0\Penguin.DependencyInjection.Abstractions.Local.dll
+  Penguin.Reflection.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Reflection.Abstractions\bin\Release\netstandard2.0\Penguin.Reflection.Abstractions.Local.dll
+  Penguin.Extensions.String.Local -> C:\Penguin\Repositories\Penguin.Extensions.String\bin\Release\netstandard2.0\Penguin.Extensions.String.Local.dll
+  Penguin.Entities.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Entities.Abstractions\bin\Release\netstandard2.0\Penguin.Entities.Abstractions.Local.dll
+  Penguin.Navigation.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Navigation.Abstractions\bin\Release\netstandard2.0\Penguin.Navigation.Abstractions.Local.dll
+  Penguin.Shared.Objects.Local -> C:\Penguin\Repositories\Penguin.Shared.Objects\bin\Release\netstandard2.0\Penguin.Shared.Objects.Local.dll
+  Penguin.Reflection.Extensions.Local -> C:\Penguin\Repositories\Penguin.Reflection.Extensions\bin\Release\netstandard2.0\Penguin.Reflection.Extensions.Local.dll
+  Penguin.Persistence.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Persistence.Abstractions\bin\Release\netstandard2.0\Penguin.Persistence.Abstractions.Local.dll
+  Penguin.Cms.Abstractions.Local -> C:\Penguin\Repositories\Penguin.Cms.Abstractions\bin\Release\netstandard2.0\Penguin.Cms.Abstractions.Local.dll
+  Penguin.Cms.Entities.Local -> C:\Penguin\Repositories\Penguin.Cms.Entities\bin\Release\netstandard2.0\Penguin.Cms.Entities.Local.dll
+  Penguin.Cms.Navigation.Local -> C:\Penguin\Repositories\Penguin.Cms.Navigation\bin\Release\netstandard2.0\Penguin.Cms.Navigation.Local.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:02.05
+
