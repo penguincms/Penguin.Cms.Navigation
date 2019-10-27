@@ -7,9 +7,9 @@
     <Description>Not Available</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.3" />
-    <PackageReference Include="Penguin.Navigation.Abstractions" Version="1.0.0" />
-    <PackageReference Include="Penguin.Shared.Objects" Version="2.0.1" />
-    <PackageReference Include="Penguin.Cms.Abstractions" Version="1.0.0-63707652289" />
+    <PackageReference Include="Penguin.Navigation.Abstractions" Version="1.0.0-T9LXGUJ" />
+    <PackageReference Include="Penguin.Shared.Objects" Version="2.0.1-T9LXGUJ" />
+    <PackageReference Include="Penguin.Cms.Abstractions" Version="1.0.0-T9LXGUJ" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.3-T9LXGUJ" />
   </ItemGroup>
 </Project>
