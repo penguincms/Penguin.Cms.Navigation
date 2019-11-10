@@ -12,6 +12,6 @@
     <PackageReference Include="Penguin.Navigation.Abstractions" Version="1.0.1-T9MJL4F" />
     <PackageReference Include="Penguin.Shared.Objects" Version="2.0.2-T9MJL4F" />
     <PackageReference Include="Penguin.Cms.Abstractions" Version="1.0.1-T9MJL4F" />
-    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.4-T9MJL4F" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="3.0.4-T9MNBFG" />
   </ItemGroup>
 </Project>
