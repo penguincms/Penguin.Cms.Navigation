@@ -6,6 +6,7 @@ using Penguin.Persistence.Abstractions.Attributes.Relations;
 using Penguin.Shared.Objects.Interfaces;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
+using System.Linq;
 
 namespace Penguin.Cms.Navigation
 {
@@ -17,7 +18,7 @@ namespace Penguin.Cms.Navigation
         [SuppressMessage("Usage", "CA2227:Collection properties should be read only")]
         public virtual IList<NavigationMenuItem> Children { get; set; }
 
-        IList<INavigationMenu> INavigationMenu.Children => throw new System.NotImplementedException();
+        IList<INavigationMenu> INavigationMenu.Children => this.Children.Cast<INavigationMenu>().ToList();
         public string Href { get; set; }
 
         [CustomRoute(DisplayContexts.Edit, "Edit", "MaterialIconSelector", "Admin")]
