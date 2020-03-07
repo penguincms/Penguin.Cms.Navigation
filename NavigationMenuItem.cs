@@ -33,7 +33,7 @@ namespace Penguin.Cms.Navigation
         [DontAllow(DisplayContexts.Edit | DisplayContexts.BatchEdit | DisplayContexts.View)]
         public NavigationMenuItem Parent { get; set; }
 
-        INavigationMenu INavigationMenu.Parent => Parent;
+        INavigationMenu INavigationMenu.Parent => this.Parent;
         public string Text { get; set; }
 
         [SuppressMessage("Design", "CA1056:Uri properties should not be strings")]
@@ -61,6 +61,9 @@ namespace Penguin.Cms.Navigation
             this.Name = text;
         }
 
-        public override string ToString() => $"{this.Uri} - {this.Href}";
+        public override string ToString()
+        {
+            return $"{this.Uri} - {this.Href}";
+        }
     }
 }
