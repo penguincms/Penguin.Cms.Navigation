@@ -10,9 +10,9 @@
     <DocumentationFile>Penguin.Cms.Navigation.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Penguin.Navigation.Abstractions" Version="5.0.1-T9ZTQVZ" />
-    <PackageReference Include="Penguin.Shared.Objects" Version="5.0.1-T9ZTQVZ" />
-    <PackageReference Include="Penguin.Cms.Abstractions" Version="5.0.1-T9ZTQVZ" />
-    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.1-T9ZTQVZ" />
+    <PackageReference Include="Penguin.Navigation.Abstractions" Version="5.0.1-TA29PDE" />
+    <PackageReference Include="Penguin.Shared.Objects" Version="5.0.1-TA29PDE" />
+    <PackageReference Include="Penguin.Cms.Abstractions" Version="5.0.1-TA29PDE" />
+    <PackageReference Include="Penguin.Cms.Entities" Version="5.0.1-TA29PDE" />
   </ItemGroup>
 </Project>
