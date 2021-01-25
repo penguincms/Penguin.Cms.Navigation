@@ -36,7 +36,6 @@ namespace Penguin.Cms.Navigation
         INavigationMenu INavigationMenu.Parent => this.Parent;
         public string Text { get; set; }
 
-        [SuppressMessage("Design", "CA1056:Uri properties should not be strings")]
         public string Uri { get; set; }
 
         public NavigationMenuItem()
