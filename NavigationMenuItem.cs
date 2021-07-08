@@ -15,7 +15,6 @@ namespace Penguin.Cms.Navigation
     {
         [EagerLoad(1)]
         [DontAllow(DisplayContexts.Edit | DisplayContexts.BatchEdit | DisplayContexts.List)]
-        [SuppressMessage("Usage", "CA2227:Collection properties should be read only")]
         public virtual IList<NavigationMenuItem> Children { get; set; }
 
         IList<INavigationMenu> INavigationMenu.Children => this.Children.Cast<INavigationMenu>().ToList();
