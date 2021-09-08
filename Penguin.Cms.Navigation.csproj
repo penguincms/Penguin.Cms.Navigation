@@ -11,8 +11,8 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Penguin.Navigation.Abstractions" Version="5.0.6-TAHULSY" />
-    <PackageReference Include="Penguin.Shared.Objects" Version="5.0.6-TAHULSY" />
     <PackageReference Include="Penguin.Cms.Abstractions" Version="5.0.6-TAHULSY" />
     <PackageReference Include="Penguin.Cms.Entities" Version="5.0.6-TAHULSY" />
+    <PackageReference Include="Penguin.Shared.Objects" Version="5.0.6-TAKUDQX" />
   </ItemGroup>
 </Project>
