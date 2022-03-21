@@ -5,7 +5,6 @@ using Penguin.Persistence.Abstractions.Attributes.Control;
 using Penguin.Persistence.Abstractions.Attributes.Relations;
 using Penguin.Shared.Objects.Interfaces;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 
 namespace Penguin.Cms.Navigation
@@ -59,9 +58,6 @@ namespace Penguin.Cms.Navigation
             this.Name = text;
         }
 
-        public override string ToString()
-        {
-            return $"{this.Uri} - {this.Href}";
-        }
+        public override string ToString() => $"{this.Uri} - {this.Href}";
     }
 }
