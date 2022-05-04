@@ -58,6 +58,9 @@ namespace Penguin.Cms.Navigation
             this.Name = text;
         }
 
-        public override string ToString() => $"{this.Uri} - {this.Href}";
+        public override string ToString()
+        {
+            return $"{this.Uri} - {this.Href}";
+        }
     }
 }
