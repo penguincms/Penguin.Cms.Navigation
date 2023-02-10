@@ -17,6 +17,7 @@ namespace Penguin.Cms.Navigation
         public virtual IList<NavigationMenuItem> Children { get; set; }
 
         IList<INavigationMenu> INavigationMenu.Children => Children.Cast<INavigationMenu>().ToList();
+
         public string Href { get; set; }
 
         [CustomRoute(DisplayContexts.Edit, "Edit", "MaterialIconSelector", "Admin")]
@@ -32,6 +33,7 @@ namespace Penguin.Cms.Navigation
         public NavigationMenuItem Parent { get; set; }
 
         INavigationMenu INavigationMenu.Parent => Parent;
+
         public string Text { get; set; }
 
         public string Uri { get; set; }
