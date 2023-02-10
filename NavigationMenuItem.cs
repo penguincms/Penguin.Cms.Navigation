@@ -3,7 +3,7 @@ using Penguin.Cms.Entities;
 using Penguin.Navigation.Abstractions;
 using Penguin.Persistence.Abstractions.Attributes.Control;
 using Penguin.Persistence.Abstractions.Attributes.Relations;
-using Penguin.Shared.Objects.Interfaces;
+using Penguin.Shared.Interfaces;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -16,7 +16,7 @@ namespace Penguin.Cms.Navigation
         [DontAllow(DisplayContexts.Edit | DisplayContexts.BatchEdit | DisplayContexts.List)]
         public virtual IList<NavigationMenuItem> Children { get; set; }
 
-        IList<INavigationMenu> INavigationMenu.Children => this.Children.Cast<INavigationMenu>().ToList();
+        IList<INavigationMenu> INavigationMenu.Children => Children.Cast<INavigationMenu>().ToList();
         public string Href { get; set; }
 
         [CustomRoute(DisplayContexts.Edit, "Edit", "MaterialIconSelector", "Admin")]
@@ -31,36 +31,36 @@ namespace Penguin.Cms.Navigation
         [DontAllow(DisplayContexts.Edit | DisplayContexts.BatchEdit | DisplayContexts.View)]
         public NavigationMenuItem Parent { get; set; }
 
-        INavigationMenu INavigationMenu.Parent => this.Parent;
+        INavigationMenu INavigationMenu.Parent => Parent;
         public string Text { get; set; }
 
         public string Uri { get; set; }
 
         public NavigationMenuItem()
         {
-            this.Children = new List<NavigationMenuItem>();
+            Children = new List<NavigationMenuItem>();
         }
 
         public NavigationMenuItem(string text, string icon)
         {
-            this.Children = new List<NavigationMenuItem>();
-            this.Icon = icon;
-            this.Text = text;
-            this.Name = text;
+            Children = new List<NavigationMenuItem>();
+            Icon = icon;
+            Text = text;
+            Name = text;
         }
 
         public NavigationMenuItem(string text, string href, string icon)
         {
-            this.Children = new List<NavigationMenuItem>();
-            this.Icon = icon;
-            this.Href = href;
-            this.Text = text;
-            this.Name = text;
+            Children = new List<NavigationMenuItem>();
+            Icon = icon;
+            Href = href;
+            Text = text;
+            Name = text;
         }
 
         public override string ToString()
         {
-            return $"{this.Uri} - {this.Href}";
+            return $"{Uri} - {Href}";
         }
     }
 }
